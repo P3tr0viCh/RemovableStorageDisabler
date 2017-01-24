@@ -1,3 +1,9 @@
+__history
+*.~*
+*.local
+RemovableStorageDisabler.stat
+RemovableStorageDisabler.dsk
+
 # Compiled Object files
 *.slo
 *.lo

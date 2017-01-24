@@ -1,0 +1,25 @@
+#include "RemovableStorageDisablerStrings.h"
+
+STRINGTABLE
+BEGIN
+IDS_LBL_POLICY_SETTING_ENABLED, "Включена."
+IDS_LBL_POLICY_SETTING_DISABLED, "Выключена."
+IDS_LBL_POLICY_SETTING_NOT_CONFIGURED, "Не задана, выключена по умолчанию."
+IDS_LBL_POLICY_SETTING_NOT_APPLICABLE, "Не доступно."
+
+IDS_LBL_POLICY_DESCRIPTION_ENABLED,
+        "Запрещён любой доступ к любому классу съёмных запоминающих устройств."
+IDS_LBL_POLICY_DESCRIPTION_DISABLED,
+        "Запись и чтение разрешены для всех классов съёмных запоминающих устройств."
+IDS_LBL_POLICY_DESCRIPTION_NOT_APPLICABLE,
+        "Политика применяется в версиях Windows не ниже Vista."
+
+IDS_BTN_TOGGLE_ENABLED, "Разрешить доступ"
+IDS_BTN_TOGGLE_DISABLED, "Запретить доступ"
+IDS_BTN_TOGGLE_NOT_APPLICABLE, "Не доступно"
+
+IDS_ERROR_SET_POLICY, "Не удалось изменить политику.\n\nВозможно, программа не запущена от имени администратора"
+IDS_ERROR_NEED_VISTA_OR_GREAT, "Программа предназначена для версий Windows не ниже Vista"
+
+IDS_VERSION, "Версия %s от %s"
+END
